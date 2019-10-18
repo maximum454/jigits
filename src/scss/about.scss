@@ -1,7 +1,7 @@
 .about{
 	background-color: #ffffff;
 	position: relative;
-	padding: 70px 20px 100px;
+	padding: 70px 30px 100px;
 	&:before{
 		content: '';
 		position: absolute;
@@ -42,13 +42,13 @@
 	}
 
 	@include r(1024){
-		padding: 70px 20px;
+		padding: 70px 30px;
 		&__inner{
 			grid-column-gap: 30px;
 		}
 	}
 	@include r(640){
-		padding: 60px 20px;
+		padding: 60px 30px;
 		&:after{
 			display: none;
 		}

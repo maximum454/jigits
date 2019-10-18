@@ -26,7 +26,7 @@
 		grid-area: menu;
 		max-width: 431px;
 		width: 100%;
-
+		position: relative;
 	}
 	&__btn{
 		grid-area: btn;
@@ -42,5 +42,28 @@
 				margin-right: 42px;
 			}
 		}
+	}
+	&__sandwich{
+		display: none;
+		width: 24px;
+		height: 24px;
+		background-color: transparent;
+		background-image: url("img/menu-icon.svg");
+		background-repeat: no-repeat;
+		background-size: 100%;
+		border: none;
+		margin-right: 0;
+		margin-left: auto;
+	}
+	@include r(580){
+		&__btn{
+			display: none;
+		}
+	}
+	@include r(480){
+		&__sandwich{
+			display: block;
+		}
+
 	}
 }

@@ -5,7 +5,7 @@
 	background-repeat: no-repeat;
 	background-size: cover;
 	position: relative;
-	padding: 100px 20px;
+	padding: 100px 30px;
 	&:before{
 		content: '';
 		position: absolute;
@@ -84,6 +84,39 @@
 		}
 		&__logo{
 			text-align: center;
+		}
+	}
+	@include r(580){
+		height: 100%;
+		&__inner{
+			grid-template-columns: 1fr;
+			grid-template-areas: "logo" "txt" "btn" "play";
+			grid-column-gap: 36px;
+			grid-row-gap: 60px;
+			align-items: center;
+		}
+		&__logo{
+			max-width: 300px;
+			margin: 0 auto;
+			text-align: center;
+		}
+		&__title{
+			font-size: 32px;
+		}
+		&__play{
+			margin: 0 auto;
+		}
+		.btn{
+			max-width: 100%;
+			margin-left: 0;
+		}
+	}
+	@include r(480){
+		&__logo{
+			max-width: 180px;
+		}
+		&__title{
+			font-size: 24px;
 		}
 	}
 }

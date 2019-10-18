@@ -10,7 +10,8 @@ html, body {
   background-color: #FAFAFA; }
 
 .wrp {
-  margin: 0 auto; }
+  margin: 0 auto;
+  overflow: hidden; }
 
 .hidden {
   display: none; }
@@ -102,7 +103,8 @@ h4 {
   .nav__menu {
     grid-area: menu;
     max-width: 431px;
-    width: 100%; }
+    width: 100%;
+    position: relative; }
   .nav__btn {
     grid-area: btn;
     display: -webkit-box;
@@ -119,6 +121,23 @@ h4 {
       height: 35px; }
       .nav__btn .btn.white {
         margin-right: 42px; }
+  .nav__sandwich {
+    display: none;
+    width: 24px;
+    height: 24px;
+    background-color: transparent;
+    background-image: url(img/menu-icon.svg);
+    background-repeat: no-repeat;
+    background-size: 100%;
+    border: none;
+    margin-right: 0;
+    margin-left: auto; }
+  @media only screen and (max-width: 580px) {
+    .nav__btn {
+      display: none; } }
+  @media only screen and (max-width: 480px) {
+    .nav__sandwich {
+      display: block; } }
 
 .menu {
   width: 100%;
@@ -150,6 +169,9 @@ h4 {
       width: 100%;
       height: 3px;
       background-color: #F9AC3D; }
+  @media only screen and (max-width: 480px) {
+    .menu {
+      display: none; } }
 
 .header {
   width: 100%;
@@ -158,7 +180,7 @@ h4 {
   background-repeat: no-repeat;
   background-size: cover;
   position: relative;
-  padding: 100px 20px; }
+  padding: 100px 30px; }
   .header:before {
     content: '';
     position: absolute;
@@ -231,10 +253,37 @@ h4 {
               align-items: center; }
     .header__logo {
       text-align: center; } }
+  @media only screen and (max-width: 580px) {
+    .header {
+      height: 100%; }
+      .header__inner {
+        grid-template-columns: 1fr;
+        grid-template-areas: "logo" "txt" "btn" "play";
+        grid-column-gap: 36px;
+        grid-row-gap: 60px;
+        -webkit-box-align: center;
+            -ms-flex-align: center;
+                align-items: center; }
+      .header__logo {
+        max-width: 300px;
+        margin: 0 auto;
+        text-align: center; }
+      .header__title {
+        font-size: 32px; }
+      .header__play {
+        margin: 0 auto; }
+      .header .btn {
+        max-width: 100%;
+        margin-left: 0; } }
+  @media only screen and (max-width: 480px) {
+    .header__logo {
+      max-width: 180px; }
+    .header__title {
+      font-size: 24px; } }
 
 .salons {
   background-color: #ffffff;
-  padding: 100px 20px;
+  padding: 100px 30px;
   position: relative; }
   .salons:before {
     content: '';
@@ -269,7 +318,6 @@ h4 {
     grid-template-areas: none;
     grid-column-gap: 30px; }
   .salons__item {
-    max-width: 370px;
     width: 100%;
     border-radius: 10px;
     -webkit-box-shadow: 0 2px 10px -5px rgba(0, 0, 0, 0.6);
@@ -279,9 +327,14 @@ h4 {
     background-color: #ffffff; }
   .salons__img {
     width: 100%;
-    height: 243px;
     margin-bottom: 20px;
     position: relative; }
+    .salons__img img {
+      display: block;
+      width: 100%;
+      height: 100%;
+      -o-object-fit: cover;
+         object-fit: cover; }
   .salons__txt {
     padding: 10px; }
   .salons__adress {
@@ -322,7 +375,7 @@ h4 {
       padding-left: 0; } }
   @media only screen and (max-width: 768px) {
     .salons {
-      padding: 60px 20px; }
+      padding: 60px 30px; }
       .salons:after {
         content: '';
         position: absolute;
@@ -342,10 +395,18 @@ h4 {
         .salons__title h2 {
           margin: 0 0 20px;
           line-height: 1; } }
+  @media only screen and (max-width: 580px) {
+    .salons:after {
+      display: none; }
+    .salons__inner {
+      grid-template-columns: 1fr;
+      grid-template-areas: "title" "item";
+      grid-column-gap: 30px;
+      grid-row-gap: 30px; } }
 
 .services {
   position: relative;
-  padding: 70px 20px; }
+  padding: 70px 15px; }
   .services:before {
     content: '';
     position: absolute;
@@ -397,7 +458,9 @@ h4 {
     color: #353535;
     font-size: 16px;
     padding: 0 12px;
-    border-radius: 5px; }
+    border-radius: 5px;
+    -ms-flex-item-align: center;
+        align-self: center; }
   @media only screen and (max-width: 1024px) {
     .services__catalog {
       padding: 50px;
@@ -409,18 +472,34 @@ h4 {
       margin-bottom: 30px; } }
   @media only screen and (max-width: 768px) {
     .services {
-      padding: 60px 20px; }
+      padding: 60px 15px; }
       .services__title {
-        padding-left: 0;
+        padding: 0 15px;
         margin-bottom: 50px; }
       .services__catalog {
         padding: 30px;
-        grid-column-gap: 30px; } }
+        grid-column-gap: 30px;
+        grid-template-columns: 1fr; }
+      .services__item {
+        display: -webkit-box;
+        display: -ms-flexbox;
+        display: flex;
+        -webkit-box-pack: justify;
+            -ms-flex-pack: justify;
+                justify-content: space-between;
+        -ms-flex-item-align: center;
+            align-self: center; }
+      .services__name {
+        margin: 0; } }
+  @media only screen and (max-width: 580px) {
+    .services__name {
+      margin: 0;
+      max-width: 131px; } }
 
 .about {
   background-color: #ffffff;
   position: relative;
-  padding: 70px 20px 100px; }
+  padding: 70px 30px 100px; }
   .about:before {
     content: '';
     position: absolute;
@@ -456,12 +535,12 @@ h4 {
     margin: 0 0 30px; }
   @media only screen and (max-width: 1024px) {
     .about {
-      padding: 70px 20px; }
+      padding: 70px 30px; }
       .about__inner {
         grid-column-gap: 30px; } }
   @media only screen and (max-width: 640px) {
     .about {
-      padding: 60px 20px; }
+      padding: 60px 30px; }
       .about:after {
         display: none; }
       .about__inner {
@@ -472,7 +551,7 @@ h4 {
 
 .barbers {
   position: relative;
-  padding: 70px 20px; }
+  padding: 70px 15px; }
   .barbers:before {
     content: '';
     position: absolute;
@@ -490,7 +569,9 @@ h4 {
     max-width: 1170px;
     margin: 0 auto; }
   .barbers__title {
-    margin-bottom: 72px; }
+    margin: 0 0 72px; }
+    .barbers__title h2 {
+      margin: 0 0 30px; }
   .barbers__list {
     margin: 0;
     padding: 0;
@@ -515,7 +596,12 @@ h4 {
       list-style: none;
       display: grid;
       grid-template-columns: repeat(2, 1fr);
-      grid-column-gap: 30px; } }
+      grid-column-gap: 30px;
+      grid-row-gap: 30px; } }
+  @media only screen and (max-width: 640px) {
+    .barbers__title {
+      margin: 0 0 72px;
+      padding: 0 15px; } }
 
 .morgans {
   background-color: #ffffff;
@@ -546,6 +632,8 @@ h4 {
     grid-template-columns: 1fr minmax(400px, 590px);
     grid-column-gap: 60px;
     grid-row-gap: 40px; }
+  .morgans__logo img {
+    max-width: 100%; }
   .morgans__title {
     color: #ffffff;
     margin: 0 0 10px; }
@@ -609,6 +697,24 @@ h4 {
     .morgans__inner {
       padding: 100px 70px 70px;
       grid-template-columns: 1fr; } }
+  @media only screen and (max-width: 580px) {
+    .morgans {
+      padding: 60px 20px; }
+      .morgans__inner {
+        padding: 30px; }
+      .morgans__gallery {
+        display: grid;
+        grid-template-columns: 1fr;
+        grid-template-rows: 284px;
+        grid-column-gap: 30px;
+        grid-row-gap: 30px; } }
+  @media only screen and (max-width: 480px) {
+    .morgans {
+      padding: 60px 20px; }
+      .morgans__inner {
+        padding: 20px; }
+      .morgans .btn {
+        width: 100%; } }
 
 .contacts {
   background-color: #ffffff;
@@ -649,6 +755,25 @@ h4 {
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex; }
+  @media only screen and (max-width: 580px) {
+    .contacts {
+      padding: 60px 20px; } }
+  @media only screen and (max-width: 480px) {
+    .contacts__group {
+      display: -webkit-box;
+      display: -ms-flexbox;
+      display: flex;
+      -webkit-box-orient: vertical;
+      -webkit-box-direction: normal;
+          -ms-flex-direction: column;
+              flex-direction: column; }
+    .contacts__adress {
+      margin-bottom: 20px;
+      border-right: none;
+      padding-right: 0; }
+      .contacts__adress:last-child {
+        padding-left: 0;
+        padding-right: 0; } }
 
 .footer {
   background-color: #ffffff;
@@ -681,6 +806,7 @@ h4 {
     padding-left: 28px;
     color: #949494;
     font-size: 13px;
+    line-height: 21px;
     text-transform: uppercase;
     text-decoration: none; }
 

@@ -1,6 +1,6 @@
 .barbers{
 	position: relative;
-	padding: 70px 20px;
+	padding: 70px 15px;
 	&:before{
 		content: '';
 		position: absolute;
@@ -20,7 +20,10 @@
 		margin: 0 auto;
 	}
 	&__title{
-		margin-bottom: 72px;
+		margin: 0 0 72px;
+		h2{
+			margin: 0 0 30px;
+		}
 	}
 	&__list{
 		margin: 0;
@@ -53,6 +56,13 @@
 			display: grid;
 			grid-template-columns: repeat(2,1fr);
 			grid-column-gap: 30px;
+			grid-row-gap: 30px;
+		}
+	}
+	@include r(640){
+		&__title{
+			margin: 0 0 72px;
+			padding: 0 15px;
 		}
 	}
 }

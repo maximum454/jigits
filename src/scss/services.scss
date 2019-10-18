@@ -1,6 +1,6 @@
 .services {
 	position: relative;
-	padding: 70px 20px;
+	padding: 70px 15px;
 	&:before {
 		content: '';
 		position: absolute;
@@ -69,6 +69,7 @@
 		font-size: 16px;
 		padding: 0 12px;
 		border-radius: 5px;
+		align-self: center;
 	}
 
 	@include r(1024) {
@@ -85,14 +86,29 @@
 		}
 	}
 	@include  r(768){
-		padding: 60px 20px;
+		padding: 60px 15px;
 		&__title {
-			padding-left: 0;
+			padding: 0 15px;
 			margin-bottom: 50px;
 		}
 		&__catalog {
 			padding: 30px;
 			grid-column-gap: 30px;
+			grid-template-columns: 1fr;
+		}
+		&__item{
+			display: flex;
+			justify-content: space-between;
+			align-self: center;
+		}
+		&__name {
+			margin: 0;
+		}
+	}
+	@include  r(580){
+		&__name {
+			margin: 0;
+			max-width: 131px;
 		}
 	}
 }

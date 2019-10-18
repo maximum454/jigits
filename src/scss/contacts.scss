@@ -43,4 +43,22 @@
 	&__group{
 		display: flex;
 	}
+	@include r(580){
+		padding: 60px 20px;
+	}
+	@include r(480){
+		&__group{
+			display: flex;
+			flex-direction: column;
+		}
+		&__adress{
+			margin-bottom:20px;
+			border-right: none;
+			padding-right: 0;
+			&:last-child{
+				padding-left: 0;
+				padding-right: 0;
+			}
+		}
+	}
 }
