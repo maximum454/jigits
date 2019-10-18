@@ -1,0 +1,58 @@
+.barbers{
+	position: relative;
+	padding: 70px 20px;
+	&:before{
+		content: '';
+		position: absolute;
+		top: 0;
+		left: 0;
+		background-image: url("img/bg-lines.png");
+		background-repeat: repeat-y;
+		background-size: 1200px 100%;
+		background-position: center;
+		width: 100%;
+		height: 100%;
+		pointer-events: none;
+	}
+	&__inner{
+		width: 100%;
+		max-width: 1170px;
+		margin: 0 auto;
+	}
+	&__title{
+		margin-bottom: 72px;
+	}
+	&__list{
+		margin: 0;
+		padding: 0;
+		list-style: none;
+		display: grid;
+		grid-template-columns: repeat(4,minmax(180px,270px));
+		grid-column-gap: 30px;
+	}
+	&__item{
+		text-align: center;
+		margin: 0;
+		padding: 0;
+	}
+	&__img{
+		img{
+			max-width: 100%;
+		}
+	}
+	&__name{
+		font-size: 18px;
+		font-weight: 800;
+		text-transform: uppercase;
+	}
+	@include r(768){
+		&__list{
+			margin: 0;
+			padding: 0;
+			list-style: none;
+			display: grid;
+			grid-template-columns: repeat(2,1fr);
+			grid-column-gap: 30px;
+		}
+	}
+}

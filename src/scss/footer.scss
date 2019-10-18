@@ -1,0 +1,32 @@
+.footer{
+	background-color: #ffffff;
+	padding: 28px 20px;
+	&__inner{
+		width: 100%;
+		max-width: 1170px;
+		margin: 0 auto;
+		display: flex;
+		align-items: center;
+		justify-content: space-between;
+	}
+	&__inst{
+		display: block;
+		text-decoration: none;
+	}
+	&__copy{
+		margin: 0;
+		color: #949494;
+		font-size: 13px;
+	}
+	&__musan{
+		background-image: url("img/logo-musan.svg");
+		background-repeat: no-repeat;
+		background-position: center left;
+		background-size: 20px;
+		padding-left: 28px;
+		color: #949494;
+		font-size: 13px;
+		text-transform: uppercase;
+		text-decoration: none;
+	}
+}

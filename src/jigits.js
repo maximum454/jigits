@@ -1,0 +1,10 @@
+import './jigits.scss'
+
+import './img/logo.svg'
+import './img/salons.jpg'
+import './img/logo-big.svg'
+import './img/about-img.jpg'
+import './img/barbers-1.jpg'
+import './img/barbers-2.jpg'
+import './img/MorgansLogo.svg'
+import './img/footer-instagram.svg'

@@ -1,0 +1,46 @@
+.contacts{
+	background-color: #ffffff;
+	position: relative;
+	padding: 70px 20px;
+	border-bottom: 1px solid #F2F2F2;
+	&__inner{
+		width: 100%;
+		max-width: 1170px;
+		margin: 0 auto;
+	}
+	&__title{
+		margin: 0 0 20px;
+	}
+	&__adress{
+		margin-bottom:20px;
+		border-right: 1px solid #F2F2F2;
+		padding-right: 20px;
+		&:last-child{
+			border-right: none;
+			padding-left: 20px;
+			padding-right: 0;
+		}
+		h4{
+			color: #949494;
+			margin: 0;
+		}
+		a{
+			text-decoration: none;
+			color: #353535;
+			margin: 0;
+		}
+	}
+	&__email{
+		color: #2F80ED;
+		font-size: 16px;
+		text-decoration: none;
+		background-image: url("img/email.svg");
+		background-position: center left;
+		background-repeat: no-repeat;
+		background-size: 20px 16px;
+		padding-left: 30px;
+	}
+	&__group{
+		display: flex;
+	}
+}
