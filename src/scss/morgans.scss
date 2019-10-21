@@ -46,19 +46,18 @@
 	&__gallery{
 		display: grid;
 		grid-template-columns: repeat(2, minmax(180px,270px));
-		grid-template-rows: 284px 284px;
 		grid-column-gap: 30px;
 		grid-row-gap: 30px;
 	}
 	&__item{
 		background-color: #ffffff;
-		display: block;
+		display: flex;
 		text-decoration: none;
+		align-self: center;
+		justify-content: center;
 		img{
+			max-width: 100%;
 			display: block;
-			object-fit: cover;
-			width: 100%;
-			height: 100%;
 		}
 	}
 	&__inst{

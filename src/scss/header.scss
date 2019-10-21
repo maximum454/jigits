@@ -55,6 +55,7 @@
 		position: relative;
 		padding-left: 75px;
 		align-self: flex-start;
+		display: none;
 		&:before{
 			content: '';
 			position: absolute;

@@ -49,6 +49,8 @@
 		width: 100%;
 		margin-bottom: 20px;
 		position: relative;
+		border-radius: 10px;
+		overflow: hidden;
 		img{
 			display: block;
 			width: 100%;
@@ -99,6 +101,47 @@
 			background-color: #F9AC3D;
 			border: none;
 			color: #000;
+		}
+	}
+
+	/* Dots */
+
+	.slick-dots {
+		position: absolute;
+		bottom: 15px;
+		list-style: none;
+		display: block;
+		text-align: center;
+		padding: 0;
+		margin: 0;
+		width: 100%;
+		li {
+			position: relative;
+			display: inline-block;
+			height: 10px;
+			width: 10px;
+			margin: 0 5px;
+			padding: 0;
+			border-radius: 50%;
+			overflow: hidden;
+			cursor: pointer;
+			button {
+				border: 0;
+				background-color:#ffffff;
+				display: block;
+				height: 100%;
+				width: 100%;
+				outline: none;
+				opacity: .6;
+				color: transparent;
+				cursor: pointer;
+				&:hover, &:focus {
+					outline: none;
+				}
+			}
+			&.slick-active button{
+				opacity: 1;
+			}
 		}
 	}
 	@include r(1024) {
