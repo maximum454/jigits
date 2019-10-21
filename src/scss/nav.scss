@@ -1,10 +1,23 @@
 .nav{
 	width: 100%;
-	position: absolute;
+	position: fixed;
 	top: 0;
 	left: 0;
-	z-index: 10;
+	z-index: 100;
 	padding: 0 20px;
+	&.f-nav{
+		background-color: #ffffff;
+		.white{
+			border-color: #EBEBEB;
+			color: #000;
+		}
+		.menu__link{
+			color: #000;
+		}
+		.nav__logo{
+			display: block;
+		}
+	}
 	&__inner{
 		width: 100%;
 		max-width: 1170px;

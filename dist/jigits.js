@@ -11483,8 +11483,25 @@ $('.js-slider').slick({
     arrows: false,
     infinite: false,
     speed: 300,
+    autoplaySpeed: 6000,
     slidesToShow: 1,
     slidesToScroll: 1
+});
+
+$(window).scroll(function () {
+    var nav = $('.nav');
+    if ($(this).scrollTop() > 0) {
+        nav.addClass("f-nav");
+    } else {
+        nav.removeClass("f-nav");
+    }
+});
+
+$(".menu").on("click", "a", function (event) {
+    event.preventDefault();
+    var id = $(this).attr('href'),
+        top = $(id).offset().top - 50;
+    $('body,html').animate({ scrollTop: top }, 1000);
 });
 /* WEBPACK VAR INJECTION */}.call(this, __webpack_require__(/*! jquery */ "./node_modules/jquery/dist/jquery.js")))
 
