@@ -17,6 +17,9 @@
 		.nav__logo{
 			display: block;
 		}
+		.nav__sandwich{
+			background-image: url("img/menu-icon-dark.svg");
+		}
 	}
 	&__inner{
 		width: 100%;
@@ -32,8 +35,12 @@
 	&__logo{
 		grid-area: logo;
 		width: 100%;
-		max-width: 190px;
+		max-width: 90px;
 		display: none;
+		margin-right: 20px;
+		img{
+			max-width: 100%;
+		}
 	}
 	&__menu{
 		grid-area: menu;
@@ -67,8 +74,18 @@
 		border: none;
 		margin-right: 0;
 		margin-left: auto;
+		padding: 0;
 	}
-	@include r(580){
+	@include r(768){
+		&__inner{
+			justify-content: space-between;
+		}
+		&__menu{
+			grid-area: menu;
+			max-width: 100%;
+			width: 100%;
+			position: relative;
+		}
 		&__btn{
 			display: none;
 		}
@@ -77,6 +94,13 @@
 		&__sandwich{
 			display: block;
 		}
-
+		&__inner{
+			padding: 4px 0;
+		}
+		&__logo{
+			width: 100%;
+			max-width: 60px;
+			display: block;
+		}
 	}
 }

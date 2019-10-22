@@ -15,10 +15,11 @@
             </div>
 
             <div class="nav__menu">
-                <button class="nav__sandwich"></button>
+                <button class="nav__sandwich js-sandwich"></button>
                 <ul class="menu">
                     <li class="menu__item"><a href="#salons" class="menu__link">Салоны</a></li>
                     <li class="menu__item"><a href="#services" class="menu__link">Услуги</a></li>
+                    <li class="menu__item"><a href="#stocks" class="menu__link">Акции</a></li>
                     <li class="menu__item"><a href="#about" class="menu__link">О нас</a></li>
                     <li class="menu__item"><a href="#barbers" class="menu__link">Барберы</a></li>
                     <li class="menu__item"><a href="#contacts" class="menu__link">Контакты</a></li>
@@ -30,6 +31,28 @@
             </div>
         </div>
     </nav>
+    <div class="menu-mobile">
+        <button class="nav__sandwich js-sandwich"></button>
+        <ul class="menu-mobile__nav">
+            <li class="menu__item"><a href="#salons" class="menu__link">Салоны</a></li>
+            <li class="menu__item"><a href="#services" class="menu__link">Услуги</a></li>
+            <li class="menu__item"><a href="#stocks" class="menu__link">Акции</a></li>
+            <li class="menu__item"><a href="#about" class="menu__link">О нас</a></li>
+            <li class="menu__item"><a href="#barbers" class="menu__link">Барберы</a></li>
+            <li class="menu__item"><a href="#contacts" class="menu__link">Контакты</a></li>
+        </ul>
+        <div class="menu-mobile__footer">
+            <div class="contacts__adress">
+                <h4>ул. Пушкина, 4</h4>
+                <a href="tel:+77015039119">+ 7 (701) 503 81 18</a>
+            </div>
+            <div class="contacts__adress">
+                <h4>ул. Кенесары, 52</h4>
+                <a href="tel:+77015039119">+ 7 (701) 503 91 19</a>
+            </div>
+        </div>
+    </div>
+
 
     <header class="header">
         <div class="header__inner">
@@ -178,7 +201,7 @@
                     </div>
                 </div>
 
-                <div class="stocks">
+                <div id="stocks" class="stocks">
                     <div class="stocks__title">
                         <h2>Акции</h2>
                         <p class="stocks__subtitle">Специальные предложения для наших клиентов. При себе необходимо иметь документы,

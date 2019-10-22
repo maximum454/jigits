@@ -11497,11 +11497,16 @@ $(window).scroll(function () {
     }
 });
 
-$(".menu").on("click", "a", function (event) {
+$(".menu, .menu-mobile").on("click", "a", function (event) {
     event.preventDefault();
     var id = $(this).attr('href'),
         top = $(id).offset().top - 50;
     $('body,html').animate({ scrollTop: top }, 1000);
+    $('.menu-mobile').removeClass("active");
+});
+
+$('.js-sandwich').on("click", function () {
+    $('.menu-mobile').toggleClass('active');
 });
 /* WEBPACK VAR INJECTION */}.call(this, __webpack_require__(/*! jquery */ "./node_modules/jquery/dist/jquery.js")))
 
