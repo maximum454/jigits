@@ -118,7 +118,9 @@ h4 {
     grid-area: menu;
     max-width: 431px;
     width: 100%;
-    position: relative; }
+    position: relative;
+    margin-right: 0;
+    margin-left: auto; }
   .nav__btn {
     grid-area: btn;
     display: none;
