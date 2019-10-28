@@ -120,15 +120,17 @@ h4 {
     width: 100%;
     position: relative;
     margin-right: 0;
-    margin-left: auto; }
+    margin-left: 0; }
   .nav__btn {
     grid-area: btn;
-    display: none;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
     -webkit-box-align: center;
         -ms-flex-align: center;
             align-items: center;
     width: 100%;
-    max-width: 302px;
+    max-width: 130px;
     margin-right: 0;
     margin-left: auto; }
     .nav__btn .btn {
@@ -783,8 +785,7 @@ h4 {
 .morgans {
   background-color: #ffffff;
   position: relative;
-  padding: 100px 20px;
-  border-bottom: 1px solid #F2F2F2; }
+  padding: 100px 20px; }
   .morgans:before {
     content: '';
     position: absolute;
@@ -895,6 +896,41 @@ h4 {
         padding: 20px; }
       .morgans .btn {
         width: 100%; } }
+
+.instagram {
+  position: relative;
+  padding: 70px 15px;
+  background-color: #ffffff;
+  border-bottom: 1px solid #F2F2F2; }
+  .instagram:before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    background-image: url(img/bg-lines.png);
+    background-repeat: repeat-y;
+    background-size: 1200px 100%;
+    background-position: center;
+    width: 100%;
+    height: 100%;
+    pointer-events: none; }
+  .instagram__inner {
+    width: 100%;
+    max-width: 1170px;
+    margin: 0 auto; }
+  .instagram__title {
+    margin: 0 0 72px; }
+    .instagram__title h2 {
+      margin: 0 0 30px; }
+  .instagram__inst {
+    display: block;
+    text-decoration: none;
+    color: #353535;
+    padding-left: 30px;
+    background-image: url(img/footer-instagram.svg);
+    background-size: 22px;
+    background-position: left center;
+    background-repeat: no-repeat; }
 
 .contacts {
   background-color: #ffffff;

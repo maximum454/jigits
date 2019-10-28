@@ -9,6 +9,7 @@ import './img/logo-big.svg'
 import './img/about-img.jpg'
 import './img/barbers-1.jpg'
 import './img/barbers-2.jpg'
+import './img/barbers-3.jpg'
 import './img/MorgansLogo.svg'
 import './img/footer-instagram.svg'
 import './img/99907.jpg'
@@ -56,3 +57,9 @@ $('.js-sandwich').on("click", function () {
     $('.menu-mobile').toggleClass('active');
 });
 
+var prop = {
+    salonId: 901, // id Вашего салона
+    bigButton: true, // Кнопка по умолчанию
+}
+
+zapisWidget.init('zapis-kz-widget', prop);

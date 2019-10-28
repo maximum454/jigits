@@ -48,14 +48,14 @@
 		width: 100%;
 		position: relative;
 		margin-right: 0;
-		margin-left: auto;
+		margin-left: 0;
 	}
 	&__btn{
 		grid-area: btn;
-		display: none;
+		display: flex;
 		align-items: center;
 		width: 100%;
-		max-width: 302px;
+		max-width: 130px;
 		margin-right: 0;
 		margin-left: auto;
 		.btn{

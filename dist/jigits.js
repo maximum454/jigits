@@ -11381,6 +11381,17 @@ module.exports = __webpack_require__.p + "img/barbers-2.jpg";
 
 /***/ }),
 
+/***/ "./src/img/barbers-3.jpg":
+/*!*******************************!*\
+  !*** ./src/img/barbers-3.jpg ***!
+  \*******************************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+module.exports = __webpack_require__.p + "img/barbers-3.jpg";
+
+/***/ }),
+
 /***/ "./src/img/footer-instagram.svg":
 /*!**************************************!*\
   !*** ./src/img/footer-instagram.svg ***!
@@ -11453,6 +11464,8 @@ __webpack_require__(/*! ./img/barbers-1.jpg */ "./src/img/barbers-1.jpg");
 
 __webpack_require__(/*! ./img/barbers-2.jpg */ "./src/img/barbers-2.jpg");
 
+__webpack_require__(/*! ./img/barbers-3.jpg */ "./src/img/barbers-3.jpg");
+
 __webpack_require__(/*! ./img/MorgansLogo.svg */ "./src/img/MorgansLogo.svg");
 
 __webpack_require__(/*! ./img/footer-instagram.svg */ "./src/img/footer-instagram.svg");
@@ -11508,6 +11521,13 @@ $(".menu, .menu-mobile").on("click", "a", function (event) {
 $('.js-sandwich').on("click", function () {
     $('.menu-mobile').toggleClass('active');
 });
+
+var prop = {
+    salonId: 901, // id Вашего салона
+    bigButton: true // Кнопка по умолчанию
+};
+
+zapisWidget.init('zapis-kz-widget', prop);
 /* WEBPACK VAR INJECTION */}.call(this, __webpack_require__(/*! jquery */ "./node_modules/jquery/dist/jquery.js")))
 
 /***/ }),
