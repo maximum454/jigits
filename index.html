@@ -5,15 +5,14 @@
     <title>jigits</title>
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
     <link rel="stylesheet" href="dist/jigits.css">
-    <script
-            src="https://code.jquery.com/jquery-3.4.1.min.js"
-            integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo="
-            crossorigin="anonymous"></script>
-    <script src="https://zapis.kz/faces/javax.faces.resource/js/zapis-widget.js"></script>
-
 </head>
 <body>
 <div class="wrp">
+    <div class="iframe">
+        <div class="iframe__close js-zapis-close"></div>
+        <iframe src="https://zapis.kz/astana/salony/poisk?q=jigits" frameborder="0" width="100%" height="100%"></iframe>
+    </div>
+
     <nav class="nav">
         <div class="nav__inner">
             <div class="nav__logo">
@@ -33,7 +32,7 @@
             </div>
             <div class="nav__btn">
                 <!--<a href="#" class="btn second white">ПОЗВОНИТЬ</a>-->
-                <a href="javascript:void(0)" onclick="zapisWidget.showFrame()" class="btn second">ЗАПИСАТЬСЯ</a>
+                <div class="btn second js-zapis">ЗАПИСАТЬСЯ</div>
             </div>
         </div>
     </nav>
@@ -73,7 +72,7 @@
             </div>
 
 
-            <a href="javascript:void(0)" onclick="zapisWidget.showFrame()" class="btn second">ЗАПИСАТЬСЯ</a>
+            <div class="btn second js-zapis">ЗАПИСАТЬСЯ</div>
 
             <div class="header__play">Посмотрите промо-ролик</div>
         </div>
@@ -323,8 +322,7 @@
                     <p>Подписывайтесь и будьте в курсе<br> наших новостей и событий</p>
                     <a href="https://www.instagram.com/jigits.barbershop/" target="_blank" class="instagram__inst">@jigits.barbershop</a>
                 </div>
-                <!-- SnapWidget -->
-                <!-- SnapWidget -->
+
                 <iframe src="https://snapwidget.com/embed/753074" class="snapwidget-widget" allowtransparency="true" frameborder="0" scrolling="no" style="border:none; overflow:hidden;  width:1170px; height:390px"></iframe>
             </div>
         </section>
@@ -336,7 +334,7 @@
                 <div class="contacts__group">
                     <div class="contacts__adress">
                         <h4>ул. Пушкина, 4</h4>
-                        <a href="tel:+77015039119">+ 7 (701) 503 81 18</a>
+                        <a href="tel:+77015038118">+ 7 (701) 503 81 18</a>
                     </div>
                     <div class="contacts__adress">
                         <h4>ул. Кенесары, 52</h4>
@@ -356,7 +354,7 @@
             <a class="footer__musan" href="https://musan.kz/" target="_blank">Musan digital</a>
         </div>
     </footer>
-    <div id="zapis-kz-widget"></div>
+
 </div>
 
 <script src="dist/jigits.js"></script>

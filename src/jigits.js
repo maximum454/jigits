@@ -57,9 +57,19 @@ $('.js-sandwich').on("click", function () {
     $('.menu-mobile').toggleClass('active');
 });
 
+$('.js-zapis').on('click', function () {
+    $('.iframe').toggleClass("active");
+});
+
+$('.js-zapis-close').on('click', function () {
+    $('.iframe').toggleClass("active");
+});
+
 var prop = {
-    salonId: 901, // id Вашего салона
+    salonId: 900, // id Вашего салона
     bigButton: true, // Кнопка по умолчанию
 }
 
 zapisWidget.init('zapis-kz-widget', prop);
+
+
