@@ -39,8 +39,13 @@
 		padding: 0;
 	}
 	&__img{
+		border-radius: 10px;
+		overflow: hidden;
+		margin-bottom: 20px;
+		box-shadow: 0 10px 20px rgba(#000,.1);
 		img{
 			max-width: 100%;
+			display: block;
 		}
 	}
 	&__name{

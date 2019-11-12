@@ -83,7 +83,7 @@ h4 {
 .iframe {
   position: fixed;
   top: 0;
-  right: -450px;
+  right: -485px;
   width: 80%;
   max-width: 450px;
   height: 100vh;
@@ -487,7 +487,7 @@ h4 {
       -o-object-fit: cover;
          object-fit: cover; }
   .salons__txt {
-    padding: 10px; }
+    padding: 10px 10px 0; }
   .salons__adress {
     margin-bottom: 20px;
     padding: 0 20px; }
@@ -779,10 +779,19 @@ h4 {
     display: grid;
     grid-template-columns: minmax(280px, 570px) minmax(280px, 400px);
     grid-column-gap: 100px; }
-    .about__inner img {
-      max-width: 100%; }
   .about__title {
     margin: 0 0 30px; }
+  .about__img {
+    -webkit-box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2);
+            box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2);
+    border-radius: 10px;
+    overflow: hidden; }
+    .about__img img {
+      width: 100%;
+      height: 100%;
+      -o-object-fit: cover;
+         object-fit: cover;
+      display: block; }
   @media only screen and (max-width: 1024px) {
     .about {
       padding: 70px 30px; }
@@ -833,8 +842,15 @@ h4 {
     text-align: center;
     margin: 0;
     padding: 0; }
-  .barbers__img img {
-    max-width: 100%; }
+  .barbers__img {
+    border-radius: 10px;
+    overflow: hidden;
+    margin-bottom: 20px;
+    -webkit-box-shadow: 0 10px 20px rgba(0, 0, 0, 0.1);
+            box-shadow: 0 10px 20px rgba(0, 0, 0, 0.1); }
+    .barbers__img img {
+      max-width: 100%;
+      display: block; }
   .barbers__name {
     font-size: 18px;
     font-weight: 800;
@@ -905,7 +921,8 @@ h4 {
         align-self: center;
     -webkit-box-pack: center;
         -ms-flex-pack: center;
-            justify-content: center; }
+            justify-content: center;
+    padding: 20px; }
     .morgans__item img {
       max-width: 100%;
       display: block; }

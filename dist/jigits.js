@@ -11529,13 +11529,6 @@ $('.js-zapis').on('click', function () {
 $('.js-zapis-close').on('click', function () {
     $('.iframe').toggleClass("active");
 });
-
-var prop = {
-    salonId: 900, // id Вашего салона
-    bigButton: true // Кнопка по умолчанию
-};
-
-zapisWidget.init('zapis-kz-widget', prop);
 /* WEBPACK VAR INJECTION */}.call(this, __webpack_require__(/*! jquery */ "./node_modules/jquery/dist/jquery.js")))
 
 /***/ }),
