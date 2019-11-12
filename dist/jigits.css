@@ -154,7 +154,9 @@ h4 {
   z-index: 100;
   padding: 0 20px; }
   .nav.f-nav {
-    background-color: #ffffff; }
+    background-color: #ffffff;
+    -webkit-transition: background-color 600ms;
+    transition: background-color 600ms; }
     .nav.f-nav .white {
       border-color: #EBEBEB;
       color: #000; }
