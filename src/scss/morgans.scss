@@ -55,6 +55,8 @@
 		align-self: center;
 		justify-content: center;
 		padding: 20px;
+		border-radius: 10px;
+		overflow: hidden;
 		img{
 			max-width: 100%;
 			display: block;
@@ -88,6 +90,7 @@
 		background-color: #ffffff;
 		padding: 20px;
 		display: inline-block;
+		border-radius: 10px;
 		a{
 			color: #000000;
 			text-transform: uppercase;

@@ -924,7 +924,9 @@ h4 {
     -webkit-box-pack: center;
         -ms-flex-pack: center;
             justify-content: center;
-    padding: 20px; }
+    padding: 20px;
+    border-radius: 10px;
+    overflow: hidden; }
     .morgans__item img {
       max-width: 100%;
       display: block; }
@@ -953,7 +955,8 @@ h4 {
   .morgans__mark {
     background-color: #ffffff;
     padding: 20px;
-    display: inline-block; }
+    display: inline-block;
+    border-radius: 10px; }
     .morgans__mark a {
       color: #000000;
       text-transform: uppercase;
