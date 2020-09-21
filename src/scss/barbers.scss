@@ -32,6 +32,7 @@
 		display: grid;
 		grid-template-columns: repeat(4,minmax(180px,270px));
 		grid-column-gap: 30px;
+		grid-row-gap: 30px;
 	}
 	&__item{
 		text-align: center;

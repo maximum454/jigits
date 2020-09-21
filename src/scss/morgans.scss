@@ -58,9 +58,11 @@
 		padding: 20px;
 		border-radius: 10px;
 		overflow: hidden;
+		max-height: 270px;
 		img{
 			max-width: 100%;
 			display: block;
+			object-fit: contain;
 		}
 	}
 	&__inst{

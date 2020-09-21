@@ -10,6 +10,7 @@ import './img/about-img.jpg'
 import './img/barbers-1.jpg'
 import './img/barbers-2.jpg'
 import './img/barbers-3.jpg'
+import './img/barbers-4.jpg'
 import './img/MorgansLogo.svg'
 import './img/footer-instagram.svg'
 import './img/99907.jpg'
@@ -19,10 +20,10 @@ import './img/104929.jpg'
 import './img/DSC00617.jpg'
 import './img/DSC00649.jpg'
 import './img/DSC00709.jpg'
-
 import './img/DSC00825.jpg'
 import './img/DSC00866.jpg'
 import './img/DSC00891.jpg'
+import './img/p404.svg'
 
 
 $('.js-slider').slick({
@@ -57,13 +58,16 @@ $('.js-sandwich').on("click", function () {
     $('.menu-mobile').toggleClass('active');
 });
 
-$('.js-zapis').on('click', function () {
-    $('.iframe').toggleClass("active");
-});
 
-$('.js-zapis-close').on('click', function () {
-    $('.iframe').toggleClass("active");
-});
+var yWidgetSettings = {
+    buttonColor : '#F9AC3D',
+    buttonPosition : 'bottom right',
+    buttonAutoShow : true,
+    buttonText : 'Онлайн запись',
+    formPosition : 'right'
+};
+
+
 
 
 

@@ -1,0 +1,13 @@
+{
+    "name": "musan/jigits",
+    "type": "project",
+    "require": {
+        "deployer/deployer": "^6.2"
+    },
+    "authors": [
+        {
+            "name": "mitrii",
+            "email": "p.mitrii@gmail.com"
+        }
+    ]
+}

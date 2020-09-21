@@ -1,0 +1,252 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="BranchesTreeState">
+    <expand>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="LOCAL_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="GROUP_NODE:origin" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+    </expand>
+    <select />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="f7e5566f-95cc-4671-a686-525b480cc45d" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/codeStyles/codeStyleConfig.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/composer.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/composer.lock" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/deploy.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/404.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/android-chrome-192x192.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/android-chrome-512x512.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/app/app_background.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/app/barber_1.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/app/barber_2.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/app/barber_3.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/app/barber_4.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/app/barber_5.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/app/barber_6.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/app/discount_1.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/app/discount_2.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/app/discount_3.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/app/discount_4.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/app/discount_5.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/app/generic.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/app/kenesary-1.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/app/kenesary-2.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/app/kenesary-3.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/app/kenesary-4.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/app/pushkina-1.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/app/pushkina-2.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/app/pushkina-3.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/apple-touch-icon.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/browserconfig.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/dist/img/barber_6.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/dist/img/barbers-1.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/dist/img/barbers-2.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/dist/img/barbers-3.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/dist/img/barbers-4.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/dist/img/barbers-5.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/dist/img/barbers-6.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/dist/img/generic.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/dist/img/kenesary-1.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/dist/img/kenesary-2.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/dist/img/kenesary-3.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/dist/img/kenesary-4.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/dist/img/p404.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/dist/img/pushkina-1.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/dist/img/pushkina-2.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/dist/img/pushkina-3.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/dist/jigits.css.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/dist/jigits.js.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/favicon-16x16.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/favicon-32x32.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/favicon.ico" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/mstile-150x150.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/site.webmanifest" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/sitemap.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/img/barber_6.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/img/barbers-4.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/img/barbers-5.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/img/barbers-6.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/img/p404.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/scss/p404.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/scss/patrial/spinkit.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/jigits.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/jigits.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/jsLibraryMappings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/jsLibraryMappings.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/img/102373.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/public/dist/img/102373.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/img/102694.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/public/dist/img/102694.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/img/104929.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/public/dist/img/104929.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/img/99907.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/public/dist/img/99907.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/img/DSC00617.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/public/dist/img/DSC00617.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/img/DSC00649.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/public/dist/img/DSC00649.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/img/DSC00709.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/public/dist/img/DSC00709.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/img/DSC00825.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/public/dist/img/DSC00825.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/img/DSC00866.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/public/dist/img/DSC00866.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/img/DSC00891.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/public/dist/img/DSC00891.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/img/MorgansLogo.svg" beforeDir="false" afterPath="$PROJECT_DIR$/public/dist/img/MorgansLogo.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/img/about-bg.png" beforeDir="false" afterPath="$PROJECT_DIR$/public/dist/img/about-bg.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/img/about-img.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/public/dist/img/about-img.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/img/barbers-1.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/img/barbers-2.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/img/barbers-3.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/img/bg-lines.png" beforeDir="false" afterPath="$PROJECT_DIR$/public/dist/img/bg-lines.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/img/email.svg" beforeDir="false" afterPath="$PROJECT_DIR$/public/dist/img/email.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/img/footer-instagram.svg" beforeDir="false" afterPath="$PROJECT_DIR$/public/dist/img/footer-instagram.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/img/header-bg.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/public/dist/img/header-bg.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/img/instagram.svg" beforeDir="false" afterPath="$PROJECT_DIR$/public/dist/img/instagram.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/img/logo-big.svg" beforeDir="false" afterPath="$PROJECT_DIR$/public/dist/img/logo-big.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/img/logo-musan.svg" beforeDir="false" afterPath="$PROJECT_DIR$/public/dist/img/logo-musan.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/img/logo.svg" beforeDir="false" afterPath="$PROJECT_DIR$/public/dist/img/logo.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/img/menu-icon-dark.svg" beforeDir="false" afterPath="$PROJECT_DIR$/public/dist/img/menu-icon-dark.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/img/menu-icon.svg" beforeDir="false" afterPath="$PROJECT_DIR$/public/dist/img/menu-icon.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/img/play-icon.svg" beforeDir="false" afterPath="$PROJECT_DIR$/public/dist/img/play-icon.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/img/salons.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/public/dist/img/salons.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/img/scissors.png" beforeDir="false" afterPath="$PROJECT_DIR$/public/dist/img/scissors.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/jigits.css" beforeDir="false" afterPath="$PROJECT_DIR$/public/dist/jigits.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/jigits.css.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/jigits.js" beforeDir="false" afterPath="$PROJECT_DIR$/public/dist/jigits.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/jigits.js.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/public/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/img/barbers-1.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/src/img/barbers-1.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/img/barbers-2.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/src/img/barbers-2.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/img/barbers-3.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/src/img/barbers-3.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/jigits.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/jigits.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/jigits.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/jigits.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/scss/barbers.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/scss/barbers.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/scss/base/_class.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/scss/base/_class.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/scss/morgans.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/scss/morgans.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/scss/nav.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/scss/nav.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/scss/salons.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/scss/salons.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/webpack.config.js" beforeDir="false" afterPath="$PROJECT_DIR$/webpack.config.js" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ComposerSettings">
+    <execution />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="SCSS File" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_BRANCH_BY_REPOSITORY">
+      <map>
+        <entry key="$PROJECT_DIR$" value="master" />
+      </map>
+    </option>
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="JsBowerSettings">
+    <exe-path />
+    <config-path />
+  </component>
+  <component name="ProjectFrameBounds" extendedState="6">
+    <option name="y" value="23" />
+    <option name="width" value="1440" />
+    <option name="height" value="722" />
+  </component>
+  <component name="ProjectId" id="1hoD8zZ0aA938P50C9hodxgRL1F" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="true" />
+    <property name="javascript.nodejs.core.library.configured.version" value="12.18.3" />
+    <property name="javascript.nodejs.core.library.typings.version" value="12.12.62" />
+    <property name="js-jscs-nodeInterpreter" value="/usr/local/bin/node" />
+    <property name="js.eslint.eslintPackage" value="" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="list.type.of.created.stylesheet" value="SCSS" />
+    <property name="nodejs_interpreter_path.stuck_in_default_project" value="/usr/local/bin/node" />
+    <property name="nodejs_npm_path_reset_for_default_project" value="true" />
+    <property name="nodejs_package_manager_path" value="npm" />
+    <property name="settings.editor.selected.configurable" value="preferences.general" />
+    <property name="vue.rearranger.settings.migration" value="true" />
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src/img" />
+      <recent name="$PROJECT_DIR$/src/js" />
+      <recent name="$PROJECT_DIR$" />
+      <recent name="$PROJECT_DIR$/src/scss/base" />
+      <recent name="$PROJECT_DIR$/src/fonts" />
+    </key>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="SvnConfiguration">
+    <configuration>$USER_HOME$/.subversion</configuration>
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="f7e5566f-95cc-4671-a686-525b480cc45d" name="Default Changelist" comment="" />
+      <created>1600668396385</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1600668396385</updated>
+      <workItem from="1600668397625" duration="693000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="Проект" />
+    <MESSAGE value="zapis.kz" />
+    <MESSAGE value="fix" />
+    <MESSAGE value="fix text" />
+    <option name="LAST_COMMIT_MESSAGE" value="fix text" />
+  </component>
+  <component name="masterDetails">
+    <states>
+      <state key="ScopeChooserConfigurable.UI">
+        <settings>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+    </states>
+  </component>
+</project>
